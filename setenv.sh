@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# A script to read  and set env variables from a file
+# A script to read and set env variables from a file
 
-filename=.env
+filename=.env || ./env || ./env/*
 
 if [ ! -f $filename ]; then
     echo "File $filename does not exist"
