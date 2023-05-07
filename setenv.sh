@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# A srcipt to read  and set env variables from a file
+# A script to read  and set env variables from a file
 
 filename=.env
 
