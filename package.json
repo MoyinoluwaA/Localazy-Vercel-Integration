@@ -16,7 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "upload": "source ./setenv.sh && localazy upload -r $LOCALAZY_READ_KEY -w $LOCALAZY_WRITE_KEY",
-    "download": "source ./setenv.sh && localazy download -r $LOCALAZY_READ_KEY -w $LOCALAZY_WRITE_KEY -t $LOCALAZY_RELEASE_TAG",
+    "download": "localazy download -r $LOCALAZY_READ_KEY -w $LOCALAZY_WRITE_KEY -t $LOCALAZY_RELEASE_TAG",
     "build": "npm run download && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
