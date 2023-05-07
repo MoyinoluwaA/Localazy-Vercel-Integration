@@ -5,6 +5,15 @@ import { initReactI18next } from 'react-i18next';
 const resources = {
   en: {
     translation: require('./assets/locales/en.json')
+  },
+  cs: {
+    translation: require('./assets/locales/cs.json')
+  },
+  es: {
+    translation: require('./assets/locales/es.json')
+  },
+  fi: {
+    translation: require('./assets/locales/fi.json')
   }
 }
 

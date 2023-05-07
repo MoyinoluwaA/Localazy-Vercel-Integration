@@ -8,12 +8,17 @@
 }
 
 table {
-  margin: 24px auto;
+  margin: 32px auto;
   background-color: aliceblue;
+  border-spacing: unset;
 }
 
 th {
   border-bottom: 2px solid #000;
+}
+
+td {
+  border-bottom: 1px solid #000;
 }
 
 th,td {
