@@ -21,7 +21,7 @@ Create a file called `localazy.keys.json`. Then, copy the contents from `localaz
 Replace the writeKey and readKey with values copied from your Localazy Project Settings.
 
 
-## Vercel Custom Workflow Integration
+## Vercel Integration
 
 To integrate with Vercel,
 
