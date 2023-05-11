@@ -20,6 +20,16 @@ Select create a new project. Enter a project name of choice. Use English as the 
 Create a file called `localazy.keys.json`. Then, copy the contents from `localazy.keys.json.sample` file and paste in the created file.
 Replace the writeKey and readKey with values copied from your Localazy Project Settings.
 
+
+## Vercel Custom Workflow Integration
+
+To integrate with Vercel,
+
+- Sign up or Log in on [Vercel](https://vercel.com/).
+-  Add **environment variables**  - LOCALAZY_READ_KEY, LOCALAZY_WRITE_KEY and LOCALAZY_RELEASE_TAG.
+- Deploy Application
+- Add and update release tag for different environments.
+
 ## Available Scripts
 
 In the project directory, you can run:
